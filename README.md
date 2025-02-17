@@ -22,7 +22,12 @@
     ```sh
     cd duckdb_frontend
     ```
-3. Install the required dependencies:
+3. Create and activate a virtual environment
+    ```sh
+    python3 -m venv venv
+    source venv/bin/activate **Linux**
+    
+4. Install the required dependencies:
     ```sh
     pip install -r requirements.txt
      ```
@@ -30,24 +35,10 @@
 ## Usage
 1. Run the script:
     ```sh
-    stramlit run ddbfe.py
+    streamlit run ddbfe.py
     ```
 2. Follow the on-screen instructions to connect to your DuckDB database and execute SQL queries.
 
-## Example
-```python
-import duckdb
-
-# Connect to DuckDB
-con = duckdb.connect('my_database.db')
-
-# Execute a query
-con.execute('SELECT * FROM my_table')
-
-# Fetch results
-results = con.fetchall()
-print(results)
-```
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
