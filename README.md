@@ -16,7 +16,7 @@
 ## Installation
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/duckdb_frontend.git
+    git clone https://github.com/perlfox/duckdb_frontend.git
     ```
 2. Navigate to the project directory:
     ```sh
